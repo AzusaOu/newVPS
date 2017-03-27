@@ -19,3 +19,11 @@ sudo service lighttpd restart
 
 # Git Install
 sudo apt-get install git
+
+# ShadowsocksR Install
+cd ~
+git clone https://github.com/shadowsocksr/shadowsocksr.git
+mv shadowsocksr SSR
+cd ./shadowsocksr
+bash initcfg.sh
+
