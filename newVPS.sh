@@ -18,10 +18,10 @@ sudo cp ~/newVPS/lighttpd/lighttpd.conf /etc/lighttpd/
 sudo service lighttpd restart
 
 # Git Install
-sudo apt-get install git
+sudo apt-get install git -y
 
 # Zip Install
-sudo apt-get install zip
+sudo apt-get install zip -y
 
 # ShadowsocksR Install
 cp SSR.zip ~
@@ -30,4 +30,4 @@ unzip SSR.zip
 cd ./shadowsocksr
 
 # Ziproxy Install
-sudo apt-get install ziproxy
+sudo apt-get install ziproxy -y
